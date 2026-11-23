@@ -23,4 +23,4 @@ Commits merged into `main` follow [Conventional Commits](https://www.conventiona
 
 Release Please opens or updates a release pull request from these commits. Merging
 that pull request creates the version tag and GitHub Release. The starting version
-is `1.0.0`, recorded in `version.txt`.
+is `1.0.0`; Release Please updates `version.txt` in each release pull request.
