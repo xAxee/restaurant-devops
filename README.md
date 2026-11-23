@@ -21,6 +21,6 @@ Commits merged into `main` follow [Conventional Commits](https://www.conventiona
 - `BREAKING CHANGE: ...` in the commit footer, or `feat!: ...`, increases the major version (for example, `1.0.0` to `2.0.0`).
 - Other commit types, such as `ci:`, `chore:` and `docs:`, do not trigger a release by themselves.
 
-When a releasable Conventional Commit reaches `main`, Release Please creates the
-version tag and GitHub Release automatically, without a release pull request. The
-starting version is `1.0.0`; Git tags and GitHub Releases are the version source.
+After the build passes for a push to `main`, semantic-release creates a version
+tag and GitHub Release for releasable Conventional Commits. It starts from the
+existing `v1.0.0` tag; Git tags and GitHub Releases are the version source.

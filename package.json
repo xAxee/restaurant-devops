@@ -1,0 +1,8 @@
+{
+  "name": "restaurant-devops-release",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "semantic-release": "25.0.9"
+  }
+}
