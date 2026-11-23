@@ -23,4 +23,4 @@ Commits merged into `main` follow [Conventional Commits](https://www.conventiona
 
 When a releasable Conventional Commit reaches `main`, Release Please creates the
 version tag and GitHub Release automatically, without a release pull request. The
-starting version is `1.0.0`; the workflow updates `version.txt` after each release.
+starting version is `1.0.0`; Git tags and GitHub Releases are the version source.
